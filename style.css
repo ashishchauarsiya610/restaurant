@@ -1,0 +1,365 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap');
+:root{
+	--light-gray:#2b3032a1;
+	--primary-color:#45ccb8;
+	--border:#2b303218;
+	--text-color:#ff686b;
+	--roboto:"Roboto",sans-serif;
+	--gugi:"Gugi",cursive;
+	--sofia:"Sofia",cursive;
+}
+.primary-color{
+	color:var(--primary-color);
+}
+.bg-primary-color{
+	background-color:var(--primary-color) !important;
+}
+.text-color{
+	color:var(--tex-color);
+}
+.font-roboto{
+	font-family:var(--roboto);
+}
+.lightblue{
+	color:lightblue;
+}
+
+               /*--------Header-----*/
+header{
+	background-color:#17202A ;
+	font-family:var(--roboto);
+}
+header .site-title{
+	font-family:var(--gugi);
+}
+.header-links a{
+	font-size:0.9em;
+	text-decoration:none;
+	color:white;
+}
+                  /*----NAvbar---- */
+.navbar-nav{
+	padding:0.8em;
+}
+.navbar-nav .nav-link{
+	font-size:0.9em;
+	color:#17202A !important;
+}
+.navbar-nav .nav-item .nav-link{
+	padding:0 1.3em;
+}
+.navbar-nav .search-icon{
+	margin-right:6.5em !important;
+}
+/*-- nav DropDown list---*/
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background:white:
+	min-width:250px;
+	box-shadow:0px 2px 15px 0px rgba(0,0,0,2);
+	z-index:3;
+}
+.dropdown-content a{
+	color:black;
+	padding:12px 16px;
+    text-decoration:none;
+	display:block;
+}
+.dropdown-content a:hover{
+	background:##17202A ;
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+#navbarNav ul li a:hover
+{
+	color:#007bff !important;
+}
+                        /*---Popular City---->*/
+/*-- famous Restaurant in Jalandhar --- */
+
+marquee {
+        width: 500%;
+		height:100%;
+        padding: 10px 0;
+        background-color: lightblue;
+		color:black;
+		font-family:cooper;
+		border:green solid;
+		font-size:50px;
+      }
+.card1 {
+	  background: url(lal7.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+}
+.card02 {
+	  background: url(lal7.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+}
+.card-text{
+	    padding:30px;	    
+		position:relative;
+		opacity: 0.7;
+        filter:alpha(opacity=20);
+		 border: 1px solid black;
+		  background-color: #ffffff;
+		  color:#000000 solid;
+}
+.card2{
+	width:100%;
+}
+
+
+.card4{
+	padding:50px;
+	background:##ff6347;
+}
+.text2{
+	padding:30px;
+	font-size:20px;
+	position:relative;
+}
+/*------Menu Haveli.. ---*/
+.img-hover-zoom--quick-zoom img{
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+.card12 {
+	  background: url(h20.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+  /* Gallery -- */
+.card13 {
+	  background: url(h23.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+.gallery{
+	margin:10px 50px;
+}
+.gallery img{
+	width:220px;
+	height:150px;
+	padding:5px;
+	filter:grayscale(100%);
+	transition:2s;
+}
+.gallery img:hover{
+	filter:grayscale(0);
+	transform:scale(1.1);
+}
+.card14 {
+	  background: url(h10.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+
+/* The Transformation */
+.img-hover-zoom--quick-zoom:hover img {
+  transform: scale(2);
+}
+
+/*---Contact Haveli*/
+.card16 {
+	  background: url(h13.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+
+/*---Contact Lovely--------------------*/
+.card20{
+	   background: url(lo3.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+.card21{
+	  background: url(lo12.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+.card22{
+	  background: url(lo5.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+.card24{
+	  background: url(lo6.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+.card23{
+	width:100%;
+}
+    /*---Contact Barista */
+.card30{
+	   background: url(lava13.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+.card31{
+	  background: url(lava2.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+.card34{
+	  background: url(lava3.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+.card28{
+	  background: url(lava4.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+.card28{
+	  background: url(lava8.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	    width: 500%;
+}
+.card33 ,.card32,.card29, .card42, .card46, .card47, .card53, .card56, .card57, .card63, .card66, .card67, .card68, .card83, .card86, .card87, .card88, .card93, .card96, .card97, .card98{
+	width:100%;
+}
+
+/* ------------Crystal Restaurant ----- */
+
+#crback
+{
+	background-color:#17202A; 
+}
+.card42, .card45, .card52, .card55, .card62, .card65, .card64, .card82, .card85, .card84, .card92, .card95, .card94{
+	   background: #17202A; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+
+/* ---------PAppi di hatii----- */
+.card44{
+	   background: url(pi1.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+.card48{
+	   background: url(pi6.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+/*----- Crystal---*/
+.card54{
+	   background: url(cr1.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+.card58{
+	   background: url(cr6.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+
+
+/* ----- Sarhad--- */
+.card64{
+	   background: url(sr1.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+.card68{
+	   background: url(sr6.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+/* -----------The Lalit ---------------*/
+
+
+.card84{
+	   background: url(lal3.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+.card88{
+	   background: url(lal7.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+
+/* -----------The Saffron ---------------*/
+
+
+.card94{
+	   background: url(saf5.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+.card98{
+	   background: url(saf7.jpg) no-repeat center fixed; 
+       background-size: cover;	
+	   padding-top:100px;
+	   padding-bottom:100px;
+	   width: 500%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
